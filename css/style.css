@@ -1,0 +1,36 @@
+*{ padding: 0; margin: 0}
+html,body{
+  background-color: #161829;
+  -webkit-tap-highlight-color: transparent; user-select: none;
+  background: -webkit-radial-gradient(bottom, rgba(15, 80, 82,1), rgba(10, 24, 35, 1), rgba(11, 21, 33, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: sans-serif;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;}
+body{margin: 0;width: 100%; min-height: 800px;
+height: 100%;}
+.title{ text-align:center; color: #fff; font-size:32px; padding: 4% 0 1%; width:100%;}
+
+
+
+.main{
+  width: 80%;
+  margin: 5% auto;
+  color: #fff;
+
+}
+.wpbox{ float: left; padding: 3%; height: 230px; width: 30%;min-width: 240px;padding-left: 0; overflow: hidden;}
+.line{ float: left; padding-top: 80px; text-align: center; color:rgba(255,255,255,.3); font-size: 14px;}
+.line{width: 45%; min-width: 100px;  float: right}
+.line em{ width: 100%; height: 2px;  display: block; margin: 10px auto;
+  background: -webkit-linear-gradient(left, rgba(90, 180, 250,1), rgba(180, 86, 246, 1));
+  background-repeat: no-repeat;
+}
+.box{ width: 45%;min-width: 150px; text-align: center; float: left; }
+a.img{ height: 140px; line-height: 140px;display: inline-block; overflow: hidden;}
+a.img img{ vertical-align: middle;}
+.box span a{ font-size: 16px; color: #5cb4fb; display: block; height: 40px; line-height: 140%; text-decoration: none;}
+.box span a:focus,.box span a:hover{ color: #b356fc}
